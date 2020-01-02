@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  x: string = "RANDOM DATA";
+
   constructor() { }
 
   ngOnInit() {
